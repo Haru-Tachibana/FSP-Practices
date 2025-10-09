@@ -16,6 +16,8 @@ namespace IncomeTaxCalculator
         const decimal HIGHER_RATE = 0.40m;
         const decimal ADDITIONAL_RATE = 0.45m;
 
+        // student loan
+
 
         static void Main(string[] args)
         {
