@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36429.23 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterPassword", "EnterPassword\EnterPassword.csproj", "{2E0FA73B-D9C3-451F-BFAD-5FDCF403D04A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E0FA73B-D9C3-451F-BFAD-5FDCF403D04A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E0FA73B-D9C3-451F-BFAD-5FDCF403D04A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E0FA73B-D9C3-451F-BFAD-5FDCF403D04A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E0FA73B-D9C3-451F-BFAD-5FDCF403D04A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78F22473-EBA1-44DC-A03C-4DF4C7A64090}
+	EndGlobalSection
+EndGlobal
