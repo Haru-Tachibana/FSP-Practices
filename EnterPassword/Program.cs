@@ -1,4 +1,6 @@
-﻿namespace EnterPassword
+﻿using System.Data.Common;
+
+namespace EnterPassword
 {
     internal class Program
     {
@@ -31,14 +33,35 @@
             Console.Write("Enter your password to log in: ");
             EnteredPassword = Console.ReadLine();
 
-            while (SetPassword != EnteredPassword)
+            if (SetPassword != EnteredPassword)
             {
-                Console.Write("Password incorrect, please try again: ");
-                EnteredPassword = Console.ReadLine();
+                bool loginSuccess = false;
+
+                for (int i = 0; i < 2; ++i)
+                {
+                    Console.Write("Password incorrect, please try again: ");
+                    EnteredPassword = Console.ReadLine();
+
+                    if (SetPassword == EnteredPassword)
+                    {
+                        loginSuccess = true;
+                        break;
+                    }
+                }
+
+                if (loginSuccess == true)
+                {
+                    Console.WriteLine("Log in successful!");
+                }
+                else
+                {
+                    Console.WriteLine("Maximum attempts reached, log in failed.");
+                }
             }
-
-            Console.WriteLine("Log in successful!");
-
+            else
+            {
+                Console.WriteLine("Log in successful!");
+            }
         }
     }
 }
