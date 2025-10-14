@@ -3,23 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36429.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterPassword", "EnterPassword\EnterPassword.csproj", "{2E0FA73B-D9C3-451F-BFAD-5FDCF403D04A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnterPassword", "EnterPassword\EnterPassword.csproj", "{2E0FA73B-D9C3-451F-BFAD-5FDCF403D04A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UKTaxCalculator", "UKTaxCalculator\UKTaxCalculator.csproj", "{17EC3464-ADE2-485B-8C97-F4835838D2C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UKTaxCalculator", "UKTaxCalculator\UKTaxCalculator.csproj", "{17EC3464-ADE2-485B-8C97-F4835838D2C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiz", "Quiz\Quiz.csproj", "{666A4506-07CA-4D5E-BA85-1ACAABCAB33B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quiz", "Quiz\Quiz.csproj", "{666A4506-07CA-4D5E-BA85-1ACAABCAB33B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestrauntBillCalculator", "RestrauntBillCalculator\RestrauntBillCalculator.csproj", "{3C66234E-D197-4FFC-8FB9-26B5C3E76506}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestrauntBillCalculator", "RestrauntBillCalculator\RestrauntBillCalculator.csproj", "{3C66234E-D197-4FFC-8FB9-26B5C3E76506}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema", "Cinema\Cinema.csproj", "{C18F129A-0584-48B7-B69A-9267BC6E2578}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cinema", "Cinema\Cinema.csproj", "{C18F129A-0584-48B7-B69A-9267BC6E2578}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessANumber", "GuessANumber\GuessANumber.csproj", "{E9E34A8C-C72C-4CB6-A0A4-D59BF7C31248}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuessANumber", "GuessANumber\GuessANumber.csproj", "{E9E34A8C-C72C-4CB6-A0A4-D59BF7C31248}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputerGuesser", "ComputerGuesser\ComputerGuesser.csproj", "{CF17B08A-EB15-4A55-B68C-54C7C326188D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComputerGuesser", "ComputerGuesser\ComputerGuesser.csproj", "{CF17B08A-EB15-4A55-B68C-54C7C326188D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGreenBottles", "NGreenBottles\NGreenBottles.csproj", "{92AF91F8-B93A-4E73-B11B-4A392C229CF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NGreenBottles", "NGreenBottles\NGreenBottles.csproj", "{92AF91F8-B93A-4E73-B11B-4A392C229CF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTUDegreeClassifier", "NTUDegreeClassifier\NTUDegreeClassifier.csproj", "{B7EC4508-B7A1-4021-97E9-EBC913C46F60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTUDegreeClassifier", "NTUDegreeClassifier\NTUDegreeClassifier.csproj", "{B7EC4508-B7A1-4021-97E9-EBC913C46F60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiftController", "LiftController\LiftController.csproj", "{C0661D7F-F9C4-47EA-81DD-C2C536DE6AEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -139,6 +141,18 @@ Global
 		{B7EC4508-B7A1-4021-97E9-EBC913C46F60}.Release|x64.Build.0 = Release|Any CPU
 		{B7EC4508-B7A1-4021-97E9-EBC913C46F60}.Release|x86.ActiveCfg = Release|Any CPU
 		{B7EC4508-B7A1-4021-97E9-EBC913C46F60}.Release|x86.Build.0 = Release|Any CPU
+		{C0661D7F-F9C4-47EA-81DD-C2C536DE6AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0661D7F-F9C4-47EA-81DD-C2C536DE6AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0661D7F-F9C4-47EA-81DD-C2C536DE6AEF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C0661D7F-F9C4-47EA-81DD-C2C536DE6AEF}.Debug|x64.Build.0 = Debug|Any CPU
+		{C0661D7F-F9C4-47EA-81DD-C2C536DE6AEF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C0661D7F-F9C4-47EA-81DD-C2C536DE6AEF}.Debug|x86.Build.0 = Debug|Any CPU
+		{C0661D7F-F9C4-47EA-81DD-C2C536DE6AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0661D7F-F9C4-47EA-81DD-C2C536DE6AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0661D7F-F9C4-47EA-81DD-C2C536DE6AEF}.Release|x64.ActiveCfg = Release|Any CPU
+		{C0661D7F-F9C4-47EA-81DD-C2C536DE6AEF}.Release|x64.Build.0 = Release|Any CPU
+		{C0661D7F-F9C4-47EA-81DD-C2C536DE6AEF}.Release|x86.ActiveCfg = Release|Any CPU
+		{C0661D7F-F9C4-47EA-81DD-C2C536DE6AEF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
