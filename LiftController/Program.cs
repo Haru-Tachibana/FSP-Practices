@@ -37,6 +37,37 @@
 
             Console.WriteLine($"You have chosen the {floorNames[pickedFloor]} Floor.");
             Console.WriteLine();
+
+            // practice that indexing displays from 1
+            string[] months = new string[]
+            {
+                "January", "February", "March", "April", "May", "June",
+                "July", "August", "September", "October", "November", "December"
+            };
+
+            Console.WriteLine("The months are: ");
+            for (int i = 0; i < months.Length; ++i)
+            {
+                Console.WriteLine($"{i + 1} - {months[i]}");
+            }
+            Console.WriteLine();
+
+            int pickedMonth;
+            while (true)
+            {
+                Console.Write("Choose a month: ");
+                string? inputMonth = Console.ReadLine();
+                if (int.TryParse(inputMonth, out pickedMonth) && pickedMonth >= 1 && pickedMonth <= 12)
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Invalid input, please enter an integer between 1 and 12.");
+                }
+            }
+            Console.WriteLine($"You have chosen {months[pickedMonth - 1]}.");
+            Console.WriteLine(); 
         }
     }
 }
