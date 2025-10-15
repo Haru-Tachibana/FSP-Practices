@@ -112,6 +112,9 @@ public class NTUDegreeClassifier
             double weightedMean = totalWeightedPoints / totalCredits;
             Console.WriteLine($"Your weighted mean: {weightedMean:F1}");
 
+            string meanClassification = GetClassification(weightedMean);
+            Console.WriteLine($"Classification from Weighted Mean: {meanClassification}");
+
 
             // calculate majority grade
             Console.WriteLine("\n--- Majority Grade Calculation ---");
@@ -167,7 +170,6 @@ public class NTUDegreeClassifier
 
             // find final grade
             Console.WriteLine("\n--- Final Degree Classification ---");
-            string meanClassification = GetClassification(weightedMean);
             Console.WriteLine($"Classification from Weighted Mean: {meanClassification}");
             Console.WriteLine($"Classification from Majority Grade: {majorityGrade}");
 
