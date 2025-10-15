@@ -9,9 +9,9 @@ namespace GuessAWord
             // word bank
 
             // 
-            string[] easyWordList = {"cat", "dog", "hen", "cow", "bat", "rat", "bass"};
-            string[] mediumWordList = {"monkey", "horse", "donkey", "rabbit", "hamster", "parrot", "octopus", "giraffe", "dolphin", "penguin", "gorilla"};
-            string[] hardWordList = {"elephant", "hippopotamus", "butterfly", "budgie", "sturgeon", "cheetah", "pufferfish", "chameleon", "rhinoceros"};
+            string[] easyWordList = {"rudd", "carp", "pike", "tuna", "eel", "cod", "bass", "koi"};
+            string[] mediumWordList = {"salmon", "trout", "perch", "roach", "marlin", "angler", "guppy", "tetra"};
+            string[] hardWordList = {"haddock", "halibut", "sardine", "anchovy", "catfish", "swordfish", "flounder", "goldfish", "grouper"};
 
             string[] selectedWordBank = null;
             int maxAttempts = 0;
@@ -20,8 +20,14 @@ namespace GuessAWord
             // select difficulty
             while (selectedWordBank == null)
             {
+                Console.WriteLine("Welcome to the 'GUESS A FISH' game!");
+                Console.WriteLine("=============================================================");
+                Console.WriteLine("\nPlease select a difficulty: Easy / Medium / Hard.");
                 Console.WriteLine();
-                Console.WriteLine("Please select a difficulty: Easy / Medium / Hard.");
+                Console.WriteLine("\nEasy: 3-4 letters, you will have 5 attempts. " +
+                    "\nMedium: 5-6 letters, you will have 10 attempts." +
+                    "\nHard: more than 6 letters, you will have 15 attempts.");
+                Console.WriteLine();
                 Console.Write("Type your choice here: ");
                 difficulty = Console.ReadLine()?.ToLower();
 
@@ -54,7 +60,6 @@ namespace GuessAWord
             int remainingGuesses = maxAttempts;
 
             Console.WriteLine();
-            Console.WriteLine("Welcome to the 'GUESS AN ANIMAL' game!");
             Console.WriteLine($"You've chosen the {difficulty} difficulty, good luck!");
             Console.WriteLine();
 
