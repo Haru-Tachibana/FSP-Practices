@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessAWordUI", "GuessAWordU
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceRoller", "DiceRoller\DiceRoller.csproj", "{48058796-14BC-4CB9-8B3F-8266FE6C3822}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailwayDepartures", "RailwayDepartures\RailwayDepartures.csproj", "{F1EC7AB1-DC6B-4855-9107-221ABC53413F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +197,18 @@ Global
 		{48058796-14BC-4CB9-8B3F-8266FE6C3822}.Release|x64.Build.0 = Release|Any CPU
 		{48058796-14BC-4CB9-8B3F-8266FE6C3822}.Release|x86.ActiveCfg = Release|Any CPU
 		{48058796-14BC-4CB9-8B3F-8266FE6C3822}.Release|x86.Build.0 = Release|Any CPU
+		{F1EC7AB1-DC6B-4855-9107-221ABC53413F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1EC7AB1-DC6B-4855-9107-221ABC53413F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1EC7AB1-DC6B-4855-9107-221ABC53413F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F1EC7AB1-DC6B-4855-9107-221ABC53413F}.Debug|x64.Build.0 = Debug|Any CPU
+		{F1EC7AB1-DC6B-4855-9107-221ABC53413F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F1EC7AB1-DC6B-4855-9107-221ABC53413F}.Debug|x86.Build.0 = Debug|Any CPU
+		{F1EC7AB1-DC6B-4855-9107-221ABC53413F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1EC7AB1-DC6B-4855-9107-221ABC53413F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1EC7AB1-DC6B-4855-9107-221ABC53413F}.Release|x64.ActiveCfg = Release|Any CPU
+		{F1EC7AB1-DC6B-4855-9107-221ABC53413F}.Release|x64.Build.0 = Release|Any CPU
+		{F1EC7AB1-DC6B-4855-9107-221ABC53413F}.Release|x86.ActiveCfg = Release|Any CPU
+		{F1EC7AB1-DC6B-4855-9107-221ABC53413F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
