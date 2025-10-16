@@ -25,8 +25,8 @@ namespace GuessAWord
                 Console.WriteLine("\nPlease select a difficulty: Easy / Medium / Hard.");
                 Console.WriteLine();
                 Console.WriteLine("\nEasy: 3-4 letters, you will have 5 attempts. " +
-                    "\nMedium: 5-6 letters, you will have 10 attempts." +
-                    "\nHard: more than 6 letters, you will have 15 attempts.");
+                    "\nMedium: 5-6 letters, you will have 5 attempts." +
+                    "\nHard: more than 6 letters, you will have 5 attempts.");
                 Console.WriteLine();
                 Console.Write("Type your choice here: ");
                 difficulty = Console.ReadLine()?.ToLower();
@@ -39,11 +39,11 @@ namespace GuessAWord
                         break;
                     case "medium":
                         selectedWordBank = mediumWordList;
-                        maxAttempts = 10;
+                        maxAttempts = 5;
                         break;
                     case "hard":
                         selectedWordBank = hardWordList;
-                        maxAttempts = 15;
+                        maxAttempts = 5;
                         break;
                     default:
                         Console.WriteLine("Invalid choice. Please select Easy, Medium, or Hard.");
