@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessAWordGame", "GuessAWor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessAWordUI", "GuessAWordUI\GuessAWordUI.csproj", "{F7A5A739-88D4-43B6-AD7E-C82C21A0A205}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceRoller", "DiceRoller\DiceRoller.csproj", "{48058796-14BC-4CB9-8B3F-8266FE6C3822}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -181,6 +183,18 @@ Global
 		{F7A5A739-88D4-43B6-AD7E-C82C21A0A205}.Release|x64.Build.0 = Release|Any CPU
 		{F7A5A739-88D4-43B6-AD7E-C82C21A0A205}.Release|x86.ActiveCfg = Release|Any CPU
 		{F7A5A739-88D4-43B6-AD7E-C82C21A0A205}.Release|x86.Build.0 = Release|Any CPU
+		{48058796-14BC-4CB9-8B3F-8266FE6C3822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48058796-14BC-4CB9-8B3F-8266FE6C3822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48058796-14BC-4CB9-8B3F-8266FE6C3822}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{48058796-14BC-4CB9-8B3F-8266FE6C3822}.Debug|x64.Build.0 = Debug|Any CPU
+		{48058796-14BC-4CB9-8B3F-8266FE6C3822}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{48058796-14BC-4CB9-8B3F-8266FE6C3822}.Debug|x86.Build.0 = Debug|Any CPU
+		{48058796-14BC-4CB9-8B3F-8266FE6C3822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48058796-14BC-4CB9-8B3F-8266FE6C3822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48058796-14BC-4CB9-8B3F-8266FE6C3822}.Release|x64.ActiveCfg = Release|Any CPU
+		{48058796-14BC-4CB9-8B3F-8266FE6C3822}.Release|x64.Build.0 = Release|Any CPU
+		{48058796-14BC-4CB9-8B3F-8266FE6C3822}.Release|x86.ActiveCfg = Release|Any CPU
+		{48058796-14BC-4CB9-8B3F-8266FE6C3822}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
