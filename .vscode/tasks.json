@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build solution (remove stale UI)",
+			"type": "shell",
+			"command": "dotnet build \"FSP Practices.sln\"",
+			"problemMatcher": [
+				"$msCompile",
+				"$csharpc"
+			],
+			"group": "build"
+		}
+	]
+}
